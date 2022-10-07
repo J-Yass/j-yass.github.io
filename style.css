@@ -1,0 +1,56 @@
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+nav{
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav form{
+    float:right;
+    margin-right: 0px;
+    line-height: 80px;
+}
+
+article {
+    margin-left: 100px;
+    margin-right: 500px;
+}
+
+aside{
+    margin-left: 100px;
+}
+
+footer{
+    margin-left: 100px;
+}
