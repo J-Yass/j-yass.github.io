@@ -22,10 +22,11 @@
         </form>
     </nav>
     <main>
-        <article>
+        <p></p>
+        <h1>The Journal</h1>
+        <article>    
             <p></p>
-            <h2>The Journal</h2>
-            <h3 id="First_entry">The first day is the hardest day!</h3>
+            <h2 id="First_entry">10/06/2022 - The first day is the hardest day!</h2>
             <p>
                 I started my intro to Arduino with the Starter Kit, on a MacBook Air M1. I followed the instructions on the book (an amazing book!) and downloaded the <a href="https://www.arduino.cc/en/software" title="Arduino IDE Downloads">Arduino IDE</a> version 2.0.0. Currently, there is no native support for the ARM architecture on Mac M1, but the IDE works well under Rosseta2. The Arduino UNO comes with a USB A to USB B cable to connect to your computer. The MacBook Air M1 comes with only two ports, USB C.
                 I already had a multiport adapter, so I used it. This was my initial configuration:
@@ -34,8 +35,23 @@
             <p>The test program was Blink, I executed it on the Arduino IDE but I got this error: <strong>avrdude: stk500_recv(): programmer is not responding</strong>. I did a little troubleshooting but got the same error. Finally, I found a common solution: an original cable. So I bought one and yes! This time the program Blink worked!</p>
             <img src="images/The_blink_program.png" alt="Initial Setup" width="600" height="340">
             <p>I had some trouble with the hardware: cables and other components; they are so small and difficult to put on the board. I hope to improve my manual skills.</p>
-            <h4>Update!</h4>
+            <h3>Update!</h3>
             <p> Yesterday, before I tried the original cable, I restarted the machine. Today I test the flash written with the multiport adapter again, and worked well! Seems like the fix was only a restart :(</p>
+        </article>
+        <article>    
+            <p></p>
+            <p></p>
+            <p></p>
+            <h2 id="Second_entry">10/09/2022 - Resources</h2>
+            <p>
+                I have advanced to the project #5 of the tutorial book. I am also learning about how to connect the Arduino UNO Rev3 with Python, and I found interesting resources:
+            </p>
+            <ul>
+                <li><a href="https://forum.arduino.cc/t/serial-input-basics-updated/382007/9">Tutorial for Serial Input Basics</a></li>
+                <li><a href="https://forum.arduino.cc/t/pc-arduino-comms-using-python-updated/574496">PC - Arduno comms using Python </a></li>
+            </ul>
+            <p>The tutorial for connect Arduino and Python is tested only on Pc, and I am going to try on a Mac m1!</p>
+            
         </article>
         <aside>
             <h2>Latest entries</h2>

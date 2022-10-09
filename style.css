@@ -42,6 +42,10 @@ nav form{
     line-height: 80px;
 }
 
+h1{
+    margin-left: 100px;
+}
+
 article {
     margin-left: 100px;
     margin-right: 500px;
